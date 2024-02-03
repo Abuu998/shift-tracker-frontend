@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import { ToggleContext } from "./toggle"
+import { ToggleContext } from "./Toggle"
 
 function ToggleOn({ children }) {
     const { toggleOn } = useContext(ToggleContext)
