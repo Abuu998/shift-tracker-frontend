@@ -2,7 +2,7 @@ import { redirect } from "react-router-dom";
 import axios from "axios";
 
 const authAxios = axios.create({
-    baseURL: `${process.env.BASE_URL}`
+    baseURL: "https://shift-tracker-rust.vercel.app/api"
 })
 
 export const loginUser = async ({ email, password }) => {

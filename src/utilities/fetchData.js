@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = `${process.env.BASE_URL}`
+axios.defaults.baseURL = "https://shift-tracker-rust.vercel.app/api"
 
 export const getAllUsersShifts = async userId => {
     try {
